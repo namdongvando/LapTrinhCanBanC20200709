@@ -1,0 +1,7 @@
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe.config
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.pdb
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csprojAssemblyReference.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csproj.CoreCompileInputs.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.pdb

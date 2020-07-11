@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UngDung1", "UngDung1\UngDung1.csproj", "{289AED69-800E-45DA-A2F6-195329CCD68E}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhuongTrinhBac1", "PhuongTrinhBac1\PhuongTrinhBac1.csproj", "{915D6968-3915-4CCF-9F13-006E6B53C60D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimMaxMin", "TimMaxMin\TimMaxMin.csproj", "{CF3BF061-1131-4BC4-AD45-8F116EF88E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhuongTrinhBac2", "PhuongTrinhBac2\PhuongTrinhBac2.csproj", "{07473DAF-56E6-4083-BE15-9FF728A4F1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XepLoaiHocLuc", "XepLoaiHocLuc\XepLoaiHocLuc.csproj", "{2BC89FB7-90F0-4267-A873-522C0840C40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungHam", "SuDungHam\SuDungHam.csproj", "{21342EFB-49C6-4159-9DAC-4F259B0C69F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{CF3BF061-1131-4BC4-AD45-8F116EF88E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF3BF061-1131-4BC4-AD45-8F116EF88E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF3BF061-1131-4BC4-AD45-8F116EF88E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07473DAF-56E6-4083-BE15-9FF728A4F1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07473DAF-56E6-4083-BE15-9FF728A4F1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07473DAF-56E6-4083-BE15-9FF728A4F1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07473DAF-56E6-4083-BE15-9FF728A4F1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC89FB7-90F0-4267-A873-522C0840C40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC89FB7-90F0-4267-A873-522C0840C40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC89FB7-90F0-4267-A873-522C0840C40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC89FB7-90F0-4267-A873-522C0840C40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

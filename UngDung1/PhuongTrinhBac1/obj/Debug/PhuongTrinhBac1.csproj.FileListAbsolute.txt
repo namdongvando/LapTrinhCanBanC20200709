@@ -1,0 +1,7 @@
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\bin\Debug\PhuongTrinhBac1.exe.config
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\bin\Debug\PhuongTrinhBac1.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\bin\Debug\PhuongTrinhBac1.pdb
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\obj\Debug\PhuongTrinhBac1.csprojAssemblyReference.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\obj\Debug\PhuongTrinhBac1.csproj.CoreCompileInputs.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\obj\Debug\PhuongTrinhBac1.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac1\obj\Debug\PhuongTrinhBac1.pdb

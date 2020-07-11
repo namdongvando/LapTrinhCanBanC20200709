@@ -1,0 +1,7 @@
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.exe.config
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.pdb
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.csprojAssemblyReference.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.csproj.CoreCompileInputs.cache
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.exe
+D:\03.Training\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.pdb
