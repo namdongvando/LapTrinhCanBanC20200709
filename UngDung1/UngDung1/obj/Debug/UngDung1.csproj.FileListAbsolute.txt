@@ -12,3 +12,10 @@ D:\03.Training\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.cspr
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.csproj.CoreCompileInputs.cache
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.exe
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\bin\Debug\UngDung1.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\bin\Debug\UngDung1.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\bin\Debug\UngDung1.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\UngDung1\obj\Debug\UngDung1.pdb

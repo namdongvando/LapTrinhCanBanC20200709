@@ -5,3 +5,10 @@ D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\Phuong
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csproj.CoreCompileInputs.cache
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.exe
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.pdb

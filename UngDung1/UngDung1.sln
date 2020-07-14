@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UngDung1", "UngDung1\UngDung1.csproj", "{289AED69-800E-45DA-A2F6-195329CCD68E}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XepLoaiHocLuc", "XepLoaiHocLuc\XepLoaiHocLuc.csproj", "{2BC89FB7-90F0-4267-A873-522C0840C40D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungHam", "SuDungHam\SuDungHam.csproj", "{21342EFB-49C6-4159-9DAC-4F259B0C69F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeoBuaBao", "KeoBuaBao\KeoBuaBao.csproj", "{6705618E-1BCD-44F3-9031-7AB5A49B9F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungVongLap", "SuDungVongLap\SuDungVongLap.csproj", "{E5A756D9-8A21-480C-A669-43E791EC724D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungMang", "SuDungMang\SuDungMang.csproj", "{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21342EFB-49C6-4159-9DAC-4F259B0C69F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6705618E-1BCD-44F3-9031-7AB5A49B9F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6705618E-1BCD-44F3-9031-7AB5A49B9F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6705618E-1BCD-44F3-9031-7AB5A49B9F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6705618E-1BCD-44F3-9031-7AB5A49B9F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A756D9-8A21-480C-A669-43E791EC724D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A756D9-8A21-480C-A669-43E791EC724D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A756D9-8A21-480C-A669-43E791EC724D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A756D9-8A21-480C-A669-43E791EC724D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

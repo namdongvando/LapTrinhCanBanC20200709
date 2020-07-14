@@ -5,3 +5,10 @@ D:\03.Training\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.cs
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
 D:\03.Training\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
