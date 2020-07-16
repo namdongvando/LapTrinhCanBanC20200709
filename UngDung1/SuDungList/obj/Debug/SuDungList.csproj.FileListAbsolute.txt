@@ -1,0 +1,11 @@
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe.manifest
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.application
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.exe.manifest
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.application

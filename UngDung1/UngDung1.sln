@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungVongLap", "SuDungVong
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungMang", "SuDungMang\SuDungMang.csproj", "{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapXepMang", "SapXepMang\SapXepMang.csproj", "{DCEED005-121D-4F97-A99A-CD182C710F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungList", "SuDungList\SuDungList.csproj", "{ED849C97-D0DD-49BA-B7B8-2B1C319A49CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA7382C-B295-4E6F-BD20-1540E10EFFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEED005-121D-4F97-A99A-CD182C710F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEED005-121D-4F97-A99A-CD182C710F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEED005-121D-4F97-A99A-CD182C710F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEED005-121D-4F97-A99A-CD182C710F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED849C97-D0DD-49BA-B7B8-2B1C319A49CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED849C97-D0DD-49BA-B7B8-2B1C319A49CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED849C97-D0DD-49BA-B7B8-2B1C319A49CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED849C97-D0DD-49BA-B7B8-2B1C319A49CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

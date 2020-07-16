@@ -1,0 +1,7 @@
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.pdb
