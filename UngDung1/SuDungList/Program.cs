@@ -31,6 +31,7 @@ namespace SuDungList
             return s;
         }
 
+
         private static List<double> GiaiPTBac2(double a, double b, double c)
         {
             if (a == 0)

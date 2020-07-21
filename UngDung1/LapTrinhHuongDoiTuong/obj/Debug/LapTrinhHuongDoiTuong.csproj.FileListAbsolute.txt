@@ -1,0 +1,7 @@
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\bin\Debug\LapTrinhHuongDoiTuong.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\bin\Debug\LapTrinhHuongDoiTuong.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\bin\Debug\LapTrinhHuongDoiTuong.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\obj\Debug\LapTrinhHuongDoiTuong.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\obj\Debug\LapTrinhHuongDoiTuong.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\obj\Debug\LapTrinhHuongDoiTuong.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\LapTrinhHuongDoiTuong\obj\Debug\LapTrinhHuongDoiTuong.pdb

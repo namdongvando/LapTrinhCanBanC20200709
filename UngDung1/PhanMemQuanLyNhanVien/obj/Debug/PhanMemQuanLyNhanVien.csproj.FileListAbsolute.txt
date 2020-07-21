@@ -1,0 +1,10 @@
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\bin\Debug\PhanMemQuanLyNhanVien.exe.config
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\bin\Debug\PhanMemQuanLyNhanVien.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\bin\Debug\PhanMemQuanLyNhanVien.pdb
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.Form1.resources
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.Properties.Resources.resources
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.csproj.GenerateResource.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.exe
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.pdb
