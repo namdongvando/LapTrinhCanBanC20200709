@@ -51,16 +51,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDangNhap.Designer.cs">
+      <DependentUpon>formDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="formThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formThemNhanVien.Designer.cs">
       <DependentUpon>formThemNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="HinhHoc\formHinhTron.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HinhHoc\formHinhTron.Designer.cs">
+      <DependentUpon>formHinhTron.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HinhHoc\formHinhVuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HinhHoc\formHinhVuong.Designer.cs">
+      <DependentUpon>formHinhVuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HinhHoc\HinhHoc.cs" />
+    <Compile Include="HinhHoc\HinhTron.cs" />
+    <Compile Include="HinhHoc\HinhVuong.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDangNhap.resx">
+      <DependentUpon>formDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HinhHoc\formHinhTron.resx">
+      <DependentUpon>formHinhTron.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HinhHoc\formHinhVuong.resx">
+      <DependentUpon>formHinhVuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

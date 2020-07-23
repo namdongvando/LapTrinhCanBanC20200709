@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PhanMemQuanLyNhanVien.HinhHoc;
 
 // This is the code for your desktop app.
 // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
@@ -17,7 +18,18 @@ namespace PhanMemQuanLyNhanVien
     {
         public Form1()
         {
-            InitializeComponent();
+            Form fDangNhap = new formDangNhap();
+            DialogResult kt = fDangNhap.ShowDialog();
+            if (kt == DialogResult.OK)
+            {
+                InitializeComponent();
+            }
+            else {
+                this.Close();
+            }
+            
+             
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -52,16 +64,24 @@ namespace PhanMemQuanLyNhanVien
             if (kt != DialogResult.Yes) {
                 e.Cancel = true;  
             }
-               
-
-
-
         }
 
         private void btnThemNhanVien_Click(object sender, EventArgs e)
         {
             Form fThemNhanVien = new formThemNhanVien();
             fThemNhanVien.Show();
+        }
+
+        private void hinhVuôngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fHinhVuong = new formHinhVuong();
+            fHinhVuong.Show();
+        }
+
+        private void hìnhTrònToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fHinhVuong = new formHinhTron();
+            fHinhVuong.Show();
         }
     }
 }
