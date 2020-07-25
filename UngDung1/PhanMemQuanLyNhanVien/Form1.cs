@@ -83,5 +83,12 @@ namespace PhanMemQuanLyNhanVien
             Form fHinhVuong = new formHinhTron();
             fHinhVuong.Show();
         }
+
+        private void danhSáchNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fNhanVien = new FormDanhSachNhanVien();
+            fNhanVien.Show();
+
+        }
     }
 }

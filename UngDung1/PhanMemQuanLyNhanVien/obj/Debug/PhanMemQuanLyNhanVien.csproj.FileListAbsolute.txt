@@ -11,3 +11,4 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.formDangNhap.resources
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.HinhHoc.formHinhVuong.resources
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.HinhHoc.formHinhTron.resources
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDanhSachNhanVien.resources
