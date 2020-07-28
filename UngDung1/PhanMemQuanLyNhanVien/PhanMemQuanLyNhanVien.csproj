@@ -63,11 +63,23 @@
     <Compile Include="FormDanhSachNhanVien.Designer.cs">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuaNhanVien.Designer.cs">
+      <DependentUpon>FormSuaNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="formThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formThemNhanVien.Designer.cs">
       <DependentUpon>formThemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaiTri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiaiTri.Designer.cs">
+      <DependentUpon>GiaiTri.cs</DependentUpon>
     </Compile>
     <Compile Include="HinhHoc\formHinhTron.cs">
       <SubType>Form</SubType>
@@ -95,6 +107,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDanhSachNhanVien.resx">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuaNhanVien.resx">
+      <DependentUpon>FormSuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThemNhanVien.resx">
+      <DependentUpon>formThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaiTri.resx">
+      <DependentUpon>GiaiTri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HinhHoc\formHinhTron.resx">
       <DependentUpon>formHinhTron.cs</DependentUpon>

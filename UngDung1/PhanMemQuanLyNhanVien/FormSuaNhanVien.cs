@@ -10,36 +10,41 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyNhanVien
 {
-    public partial class formThemNhanVien : Form
+    public partial class FormSuaNhanVien : Form
     {
-        public formThemNhanVien()
+        private static String nvById;
+
+        public FormSuaNhanVien()
         {
             InitializeComponent();
         }
 
-        private void btnThem_Click(object sender, EventArgs e)
+        public FormSuaNhanVien(string maNV)
+        {
+            InitializeComponent();
+            nvById = maNV;
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
             try
             {
                 NhanVien nvTuFormThem = GetInputForm();
-                // them vao đâu?
-                bool kt = nvTuFormThem.ThemNhanVien(nvTuFormThem);
-                if (kt == true) {
-                    MessageBox.Show("Thêm Thành Công");
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                }
-                else
-                    MessageBox.Show("Mã nhân viên đã tồn tại");
-
+                nvTuFormThem.SuaNhanVien(nvTuFormThem);
+                this.DialogResult = DialogResult.OK;
+                MessageBox.Show("Sửa Thành Công");
+                this.Close();
             }
             catch (Exception ex)
             {
                 // các ban bổ sung thêm
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         private NhanVien GetInputForm()
@@ -66,6 +71,30 @@ namespace PhanMemQuanLyNhanVien
             nv.SDT = txtSDT.Text;
             nv.NgaySinh = ngaySinh;
             return nv;
+        }
+
+        private void SetInputForm(NhanVien nvById)
+        {
+            txtMaNhanVien.Text = nvById.MaNhanVien;
+            txtTenNhanVien.Text = nvById.HoTen;
+            txtDiaChi.Text = nvById.DiaChi;
+            txtEmail.Text = nvById.Email;
+            txtSDT.Text = nvById.SDT;
+            if (nvById.NgaySinh != new DateTime())
+                dtpNgaySinh.Value = nvById.NgaySinh;
+            else
+                dtpNgaySinh.Value = DateTime.Today;
+        }
+
+        private void FormSuaNhanVien_Load(object sender, EventArgs e)
+        {
+            NhanVien nv = new NhanVien();
+            SetInputForm(nv.GetNVById(nvById));
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

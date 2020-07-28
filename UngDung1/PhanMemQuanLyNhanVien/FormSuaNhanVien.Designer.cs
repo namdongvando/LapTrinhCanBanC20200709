@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyNhanVien
 {
-    partial class formThemNhanVien
+    partial class FormSuaNhanVien
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,8 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -40,7 +42,6 @@
             this.txtTenNhanVien = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
-            this.btnThem = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -48,6 +49,8 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dtpNgaySinh);
+            this.groupBox1.Controls.Add(this.btnXoa);
+            this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.label6);
@@ -58,21 +61,41 @@
             this.groupBox1.Controls.Add(this.txtTenNhanVien);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaNhanVien);
-            this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(331, 375);
+            this.groupBox1.Size = new System.Drawing.Size(241, 355);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Form Nhân Viên";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dtpNgaySinh
             // 
             this.dtpNgaySinh.Location = new System.Drawing.Point(6, 210);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
-            this.dtpNgaySinh.Size = new System.Drawing.Size(319, 20);
+            this.dtpNgaySinh.Size = new System.Drawing.Size(226, 20);
             this.dtpNgaySinh.TabIndex = 5;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(161, 315);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(71, 23);
+            this.btnXoa.TabIndex = 9;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Location = new System.Drawing.Point(23, 315);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(71, 23);
+            this.btnSua.TabIndex = 8;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label5
             // 
@@ -88,7 +111,7 @@
             this.txtDiaChi.Location = new System.Drawing.Point(6, 249);
             this.txtDiaChi.Multiline = true;
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(319, 42);
+            this.txtDiaChi.Size = new System.Drawing.Size(226, 42);
             this.txtDiaChi.TabIndex = 6;
             // 
             // label6
@@ -104,7 +127,7 @@
             // 
             this.txtEmail.Location = new System.Drawing.Point(6, 164);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(319, 20);
+            this.txtEmail.Size = new System.Drawing.Size(226, 20);
             this.txtEmail.TabIndex = 4;
             // 
             // label3
@@ -120,7 +143,7 @@
             // 
             this.txtSDT.Location = new System.Drawing.Point(6, 122);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(319, 20);
+            this.txtSDT.Size = new System.Drawing.Size(226, 20);
             this.txtSDT.TabIndex = 3;
             // 
             // label4
@@ -136,7 +159,7 @@
             // 
             this.txtTenNhanVien.Location = new System.Drawing.Point(6, 78);
             this.txtTenNhanVien.Name = "txtTenNhanVien";
-            this.txtTenNhanVien.Size = new System.Drawing.Size(319, 20);
+            this.txtTenNhanVien.Size = new System.Drawing.Size(226, 20);
             this.txtTenNhanVien.TabIndex = 2;
             // 
             // label2
@@ -152,18 +175,8 @@
             // 
             this.txtMaNhanVien.Location = new System.Drawing.Point(6, 36);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(319, 20);
+            this.txtMaNhanVien.Size = new System.Drawing.Size(226, 20);
             this.txtMaNhanVien.TabIndex = 1;
-            // 
-            // btnThem
-            // 
-            this.btnThem.Location = new System.Drawing.Point(127, 340);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(71, 23);
-            this.btnThem.TabIndex = 7;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // label1
             // 
@@ -174,14 +187,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Mã Nhân Viên";
             // 
-            // formThemNhanVien
+            // FormSuaNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 400);
+            this.ClientSize = new System.Drawing.Size(265, 394);
             this.Controls.Add(this.groupBox1);
-            this.Name = "formThemNhanVien";
-            this.Text = "formThemNhanVien";
+            this.Name = "FormSuaNhanVien";
+            this.Text = "FormSuaNhanVien";
+            this.Load += new System.EventHandler(this.FormSuaNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -192,6 +206,8 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label label6;
@@ -202,7 +218,6 @@
         private System.Windows.Forms.TextBox txtTenNhanVien;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMaNhanVien;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -39,8 +39,13 @@ namespace PhanMemQuanLyNhanVien
 
         }
 
-        public void ThemNhanVien(NhanVien nv) {
-            DSNhanVien.Add(nv);
+        public bool ThemNhanVien(NhanVien nv) {
+            // kiem tra có nhan vien trong ds khong?
+            if (GetNVById(nv.MaNhanVien) == null) {
+                DSNhanVien.Add(nv);
+                return true;
+            }
+            return false;
         }
 
         public void XoaNhanVien(string MaNhanVien)
@@ -86,6 +91,12 @@ namespace PhanMemQuanLyNhanVien
             ThemNhanVien(nv);
         }
 
-
+        public NhanVien GetNVById(string maNV)
+        {
+            NhanVien nvTim = 
+                DSNhanVien.Find(
+                    nv => nv.MaNhanVien == maNV);
+            return nvTim;
+        }
     }
 }

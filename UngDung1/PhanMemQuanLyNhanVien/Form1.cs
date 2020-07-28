@@ -90,5 +90,11 @@ namespace PhanMemQuanLyNhanVien
             fNhanVien.Show();
 
         }
+
+        private void giaiTriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fGiaiTri = new GiaiTri();
+            fGiaiTri.Show();
+        }
     }
 }
