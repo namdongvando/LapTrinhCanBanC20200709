@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgvDSNhanVien = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
@@ -46,13 +47,37 @@
             this.txtTenNhanVien = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnThemNhanVien = new System.Windows.Forms.Button();
+            this.qLHDDataSet = new PhanMemQuanLyNhanVien.QLHDDataSet();
+            this.qLHDDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhanvienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhanvienTableAdapter = new PhanMemQuanLyNhanVien.QLHDDataSetTableAdapters.NhanvienTableAdapter();
+            this.maNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nuDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ngayNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diaChiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dienThoaiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhanVien)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanvienBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvDSNhanVien
             // 
+            this.dgvDSNhanVien.AutoGenerateColumns = false;
             this.dgvDSNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.maNVDataGridViewTextBoxColumn,
+            this.hoDataGridViewTextBoxColumn,
+            this.tenDataGridViewTextBoxColumn,
+            this.nuDataGridViewCheckBoxColumn,
+            this.ngayNVDataGridViewTextBoxColumn,
+            this.diaChiDataGridViewTextBoxColumn,
+            this.dienThoaiDataGridViewTextBoxColumn});
+            this.dgvDSNhanVien.DataSource = this.nhanvienBindingSource;
             this.dgvDSNhanVien.Location = new System.Drawing.Point(272, 78);
             this.dgvDSNhanVien.Name = "dgvDSNhanVien";
             this.dgvDSNhanVien.Size = new System.Drawing.Size(516, 360);
@@ -221,6 +246,68 @@
             this.btnThemNhanVien.UseVisualStyleBackColor = true;
             this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
+            // qLHDDataSet
+            // 
+            this.qLHDDataSet.DataSetName = "QLHDDataSet";
+            this.qLHDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // qLHDDataSetBindingSource
+            // 
+            this.qLHDDataSetBindingSource.DataSource = this.qLHDDataSet;
+            this.qLHDDataSetBindingSource.Position = 0;
+            // 
+            // nhanvienBindingSource
+            // 
+            this.nhanvienBindingSource.DataMember = "Nhanvien";
+            this.nhanvienBindingSource.DataSource = this.qLHDDataSet;
+            // 
+            // nhanvienTableAdapter
+            // 
+            this.nhanvienTableAdapter.ClearBeforeFill = true;
+            // 
+            // maNVDataGridViewTextBoxColumn
+            // 
+            this.maNVDataGridViewTextBoxColumn.DataPropertyName = "MaNV";
+            this.maNVDataGridViewTextBoxColumn.HeaderText = "MaNV";
+            this.maNVDataGridViewTextBoxColumn.Name = "maNVDataGridViewTextBoxColumn";
+            this.maNVDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // hoDataGridViewTextBoxColumn
+            // 
+            this.hoDataGridViewTextBoxColumn.DataPropertyName = "Ho";
+            this.hoDataGridViewTextBoxColumn.HeaderText = "Ho";
+            this.hoDataGridViewTextBoxColumn.Name = "hoDataGridViewTextBoxColumn";
+            // 
+            // tenDataGridViewTextBoxColumn
+            // 
+            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
+            this.tenDataGridViewTextBoxColumn.HeaderText = "Ten";
+            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
+            // 
+            // nuDataGridViewCheckBoxColumn
+            // 
+            this.nuDataGridViewCheckBoxColumn.DataPropertyName = "Nu";
+            this.nuDataGridViewCheckBoxColumn.HeaderText = "Nu";
+            this.nuDataGridViewCheckBoxColumn.Name = "nuDataGridViewCheckBoxColumn";
+            // 
+            // ngayNVDataGridViewTextBoxColumn
+            // 
+            this.ngayNVDataGridViewTextBoxColumn.DataPropertyName = "NgayNV";
+            this.ngayNVDataGridViewTextBoxColumn.HeaderText = "NgayNV";
+            this.ngayNVDataGridViewTextBoxColumn.Name = "ngayNVDataGridViewTextBoxColumn";
+            // 
+            // diaChiDataGridViewTextBoxColumn
+            // 
+            this.diaChiDataGridViewTextBoxColumn.DataPropertyName = "DiaChi";
+            this.diaChiDataGridViewTextBoxColumn.HeaderText = "DiaChi";
+            this.diaChiDataGridViewTextBoxColumn.Name = "diaChiDataGridViewTextBoxColumn";
+            // 
+            // dienThoaiDataGridViewTextBoxColumn
+            // 
+            this.dienThoaiDataGridViewTextBoxColumn.DataPropertyName = "DienThoai";
+            this.dienThoaiDataGridViewTextBoxColumn.HeaderText = "DienThoai";
+            this.dienThoaiDataGridViewTextBoxColumn.Name = "dienThoaiDataGridViewTextBoxColumn";
+            // 
             // FormDanhSachNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,6 +322,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhanVien)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanvienBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -259,5 +349,16 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
         private System.Windows.Forms.Button btnThemNhanVien;
+        private System.Windows.Forms.BindingSource qLHDDataSetBindingSource;
+        private QLHDDataSet qLHDDataSet;
+        private System.Windows.Forms.BindingSource nhanvienBindingSource;
+        private QLHDDataSetTableAdapters.NhanvienTableAdapter nhanvienTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maNVDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn nuDataGridViewCheckBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngayNVDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diaChiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dienThoaiDataGridViewTextBoxColumn;
     }
 }

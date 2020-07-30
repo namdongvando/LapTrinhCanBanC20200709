@@ -40,6 +40,8 @@ namespace PhanMemQuanLyNhanVien
         }
 
         public bool ThemNhanVien(NhanVien nv) {
+          
+            //sql 
             // kiem tra có nhan vien trong ds khong?
             if (GetNVById(nv.MaNhanVien) == null) {
                 DSNhanVien.Add(nv);

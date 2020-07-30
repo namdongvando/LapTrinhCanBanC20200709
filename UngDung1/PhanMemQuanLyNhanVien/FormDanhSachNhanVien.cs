@@ -19,9 +19,11 @@ namespace PhanMemQuanLyNhanVien
 
         private void FormDanhSachNhanVien_Load(object sender, EventArgs e)
         {
-            NhanVien nv = new NhanVien();
+            // TODO: This line of code loads data into the 'qLHDDataSet.Nhanvien' table. You can move, or remove it, as needed.
+            this.nhanvienTableAdapter.Fill(this.qLHDDataSet.Nhanvien);
+            //NhanVien nv = new NhanVien();
             //  nv.KhoiTaoDS();
-            dgvDSNhanVien.DataSource = nv.GetDSNhanVien().ToList();
+            //dgvDSNhanVien.DataSource = nv.GetDSNhanVien().ToList();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
