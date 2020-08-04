@@ -59,12 +59,12 @@ namespace PhanMemQuanLyNhanVien
                 throw new Exception("Ngày Sinh Không Hợp Lệ");
             }
             // tất cả thông tin đã ok
-            nv.MaNhanVien = txtMaNhanVien.Text;
-            nv.HoTen = txtTenNhanVien.Text;
+            nv.MaNV = txtMaNhanVien.Text;
+            nv.Ho = txtTenNhanVien.Text;
             nv.DiaChi = txtDiaChi.Text;
-            nv.Email = txtEmail.Text;
-            nv.SDT = txtSDT.Text;
-            nv.NgaySinh = ngaySinh;
+            nv.Ten = txtEmail.Text;
+            nv.DienThoai = txtSDT.Text;
+            nv.NgayNV = ngaySinh;
             return nv;
         }
     }

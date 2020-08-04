@@ -5,3 +5,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Deb
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\bin\Debug\SuDungVongLap.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\bin\Debug\SuDungVongLap.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\bin\Debug\SuDungVongLap.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungVongLap\obj\Debug\SuDungVongLap.pdb

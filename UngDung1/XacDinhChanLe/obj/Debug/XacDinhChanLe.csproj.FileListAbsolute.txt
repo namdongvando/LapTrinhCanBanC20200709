@@ -12,3 +12,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Deb
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.pdb

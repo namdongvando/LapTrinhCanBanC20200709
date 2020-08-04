@@ -1,104 +1,115 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PhanMemQuanLyNhanVien
 {
-    class NhanVien
+    class NhanVien : Adapter
     {
-        public string MaNhanVien { get; set; }
-        public string HoTen { get; set; }
-        public string Email { get; set; }
+        public string MaNV { get; set; }
+        public string Ho { get; set; }
+        public string Ten { get; set; }
+        public bool Nu { get; set; }
         public string DiaChi { get; set; }
-        public string SDT { get; set; }
-        public DateTime NgaySinh { get; set; }
+        public string DienThoai { get; set; }
+        public DateTime NgayNV { get; set; }
 
-        public static List<NhanVien> DSNhanVien;
 
-        public NhanVien(string maNhanVien, string hoTen, string email, string diaChi, string sDT, DateTime ngaySinh)
+        public NhanVien(string maNV, string ho, string ten, bool nu, string diaChi, string dienThoai, DateTime ngayNV)
         {
-            MaNhanVien = maNhanVien;
-            HoTen = hoTen;
-            Email = email;
+            MaNV = maNV;
+            Ho = ho;
+            Ten = ten;
+            Nu = nu;
             DiaChi = diaChi;
-            SDT = sDT;
-            NgaySinh = ngaySinh;
-            if (DSNhanVien == null) {
-                DSNhanVien = new List<NhanVien>();
-            }
+            DienThoai = dienThoai;
+            NgayNV = ngayNV;
         }
 
         public NhanVien()
         {
-            if (DSNhanVien == null)
-            {
-                DSNhanVien = new List<NhanVien>();
-            }
 
         }
 
-        public bool ThemNhanVien(NhanVien nv) {
-          
-            //sql 
-            // kiem tra có nhan vien trong ds khong?
-            if (GetNVById(nv.MaNhanVien) == null) {
-                DSNhanVien.Add(nv);
-                return true;
-            }
-            return false;
-        }
-
-        public void XoaNhanVien(string MaNhanVien)
+        public List<NhanVien> DSNhanVien()
         {
-            DSNhanVien.RemoveAll(
-                item=>item.MaNhanVien==MaNhanVien
-                );
-        }
-
-        public List<NhanVien> GetDSNhanVien() {
-            return DSNhanVien;
-        }
-
-        public void KhoiTaoDS() {
-            if (DSNhanVien == null)
-                DSNhanVien = new List<NhanVien>();
-            ThemNhanVien(new NhanVien()
+            string sql = "select * from Nhanvien";
+            SqlDataReader dataReader = RunQuery(sql);
+            List<NhanVien> lnv = new List<NhanVien>();
+            while (dataReader.Read())
             {
-                MaNhanVien = "001",
-                HoTen = "Teo",
-                DiaChi = "001, as,da,sd,asd,as",
-                SDT = "012312312",
-                Email= "teonguyen@gmail.com",
-                NgaySinh = new DateTime(2000,1,1),
-            });
-            ThemNhanVien(new NhanVien()
-            {
-                MaNhanVien = "002",
-                HoTen = "Ti",
-                DiaChi = "001, as,da,sd,asd,as",
-                SDT = "012312312",
-                Email = "tinguyen@gmail.com",
-                NgaySinh = new DateTime(2000, 1, 1),
-            });
-
-
+                NhanVien nv = new NhanVien()
+                {
+                    MaNV = dataReader.GetValue(0).ToString(),
+                    Ho = dataReader.GetValue(1).ToString(),
+                    Ten = dataReader.GetValue(2).ToString(),
+                    Nu = bool.Parse(dataReader.GetValue(3).ToString()),
+                    NgayNV = new DateTime(),
+                    DiaChi = dataReader.GetValue(5).ToString(),
+                    DienThoai = dataReader.GetValue(6).ToString()
+                };
+                DateTime ngayNV = new DateTime();
+                DateTime.TryParse(dataReader.GetValue(4).ToString(), out ngayNV);
+                nv.NgayNV = ngayNV;
+                lnv.Add(nv);
+            }
+            return lnv;
         }
 
-
-        public void SuaNhanVien(NhanVien nv)
+        public List<NhanVien> GetDSNhanVien()
         {
-            XoaNhanVien(nv.MaNhanVien);
-            ThemNhanVien(nv);
+            List<NhanVien> lnv = new List<NhanVien>();
+            lnv = DSNhanVien();
+            return lnv;
+        }
+
+        public bool ThemNhanVien(NhanVien nvTuFormThem)
+        {
+            string sql = String.Format(@"INSERT Nhanvien ( Ho, Ten, Nu, NgayNV, DiaChi, DienThoai) 
+VALUES ( N'{0}', N'{1}', {2}, CAST(N'{3}' AS Date), N'{4}', N'{5}')", nvTuFormThem.Ho,
+nvTuFormThem.Ten,
+nvTuFormThem.Nu == true ? 1 : 0,
+nvTuFormThem.NgayNV.ToString(),
+nvTuFormThem.DiaChi,
+nvTuFormThem.DienThoai);
+            return SaveQuery(sql);
+        }
+
+        public List<NhanVien> NhanViens()
+        {
+
+            return new List<NhanVien>();
         }
 
         public NhanVien GetNVById(string maNV)
         {
-            NhanVien nvTim = 
-                DSNhanVien.Find(
-                    nv => nv.MaNhanVien == maNV);
-            return nvTim;
+            string sql = String.Format(@"select * from Nhanvien where MaNV = '{0}'", maNV);
+            SqlDataReader dataReader = RunQuery(sql);
+            dataReader.Read();
+            NhanVien nv = new NhanVien()
+            {
+                MaNV = dataReader.GetValue(0).ToString(),
+                Ho = dataReader.GetValue(1).ToString(),
+                Ten = dataReader.GetValue(2).ToString(),
+                Nu = bool.Parse(dataReader.GetValue(3).ToString()),
+                NgayNV = new DateTime(),
+                DiaChi = dataReader.GetValue(5).ToString(),
+                DienThoai = dataReader.GetValue(6).ToString()
+            };
+            return nv;
+        }
+
+        public void SuaNhanVien(NhanVien nvTuFormThem)
+        {
+
+        }
+
+        public void XoaNhanVien(string text)
+        {
+
         }
     }
 }

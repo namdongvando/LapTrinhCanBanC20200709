@@ -5,3 +5,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\bin\Debug\SapXepMang.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SapXepMang\obj\Debug\SapXepMang.pdb

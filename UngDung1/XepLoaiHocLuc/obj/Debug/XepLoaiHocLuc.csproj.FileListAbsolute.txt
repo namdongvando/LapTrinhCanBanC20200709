@@ -12,3 +12,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Deb
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\bin\Debug\XepLoaiHocLuc.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\XepLoaiHocLuc\obj\Debug\XepLoaiHocLuc.pdb

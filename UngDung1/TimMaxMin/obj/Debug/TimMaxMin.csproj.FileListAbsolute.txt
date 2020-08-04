@@ -12,3 +12,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\T
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\bin\Debug\TimMaxMin.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\bin\Debug\TimMaxMin.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\bin\Debug\TimMaxMin.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\TimMaxMin\obj\Debug\TimMaxMin.pdb

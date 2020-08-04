@@ -12,3 +12,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\S
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb

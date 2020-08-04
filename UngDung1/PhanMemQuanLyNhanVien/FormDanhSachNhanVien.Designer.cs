@@ -30,6 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dgvDSNhanVien = new System.Windows.Forms.DataGridView();
+            this.maNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nuDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ngayNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diaChiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dienThoaiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nhanvienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLHDDataSet = new PhanMemQuanLyNhanVien.QLHDDataSet();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
             this.btnThem = new System.Windows.Forms.Button();
@@ -47,22 +56,14 @@
             this.txtTenNhanVien = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnThemNhanVien = new System.Windows.Forms.Button();
-            this.qLHDDataSet = new PhanMemQuanLyNhanVien.QLHDDataSet();
             this.qLHDDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nhanvienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nhanvienTableAdapter = new PhanMemQuanLyNhanVien.QLHDDataSetTableAdapters.NhanvienTableAdapter();
-            this.maNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nuDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ngayNVDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diaChiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dienThoaiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cbxNu = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhanVien)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanvienBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvDSNhanVien
@@ -83,6 +84,59 @@
             this.dgvDSNhanVien.Size = new System.Drawing.Size(516, 360);
             this.dgvDSNhanVien.TabIndex = 0;
             this.dgvDSNhanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSNhanVien_CellContentClick);
+            // 
+            // maNVDataGridViewTextBoxColumn
+            // 
+            this.maNVDataGridViewTextBoxColumn.DataPropertyName = "MaNV";
+            this.maNVDataGridViewTextBoxColumn.HeaderText = "MaNV";
+            this.maNVDataGridViewTextBoxColumn.Name = "maNVDataGridViewTextBoxColumn";
+            this.maNVDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // hoDataGridViewTextBoxColumn
+            // 
+            this.hoDataGridViewTextBoxColumn.DataPropertyName = "Ho";
+            this.hoDataGridViewTextBoxColumn.HeaderText = "Ho";
+            this.hoDataGridViewTextBoxColumn.Name = "hoDataGridViewTextBoxColumn";
+            // 
+            // tenDataGridViewTextBoxColumn
+            // 
+            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
+            this.tenDataGridViewTextBoxColumn.HeaderText = "Ten";
+            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
+            // 
+            // nuDataGridViewCheckBoxColumn
+            // 
+            this.nuDataGridViewCheckBoxColumn.DataPropertyName = "Nu";
+            this.nuDataGridViewCheckBoxColumn.HeaderText = "Nu";
+            this.nuDataGridViewCheckBoxColumn.Name = "nuDataGridViewCheckBoxColumn";
+            // 
+            // ngayNVDataGridViewTextBoxColumn
+            // 
+            this.ngayNVDataGridViewTextBoxColumn.DataPropertyName = "NgayNV";
+            this.ngayNVDataGridViewTextBoxColumn.HeaderText = "NgayNV";
+            this.ngayNVDataGridViewTextBoxColumn.Name = "ngayNVDataGridViewTextBoxColumn";
+            // 
+            // diaChiDataGridViewTextBoxColumn
+            // 
+            this.diaChiDataGridViewTextBoxColumn.DataPropertyName = "DiaChi";
+            this.diaChiDataGridViewTextBoxColumn.HeaderText = "DiaChi";
+            this.diaChiDataGridViewTextBoxColumn.Name = "diaChiDataGridViewTextBoxColumn";
+            // 
+            // dienThoaiDataGridViewTextBoxColumn
+            // 
+            this.dienThoaiDataGridViewTextBoxColumn.DataPropertyName = "DienThoai";
+            this.dienThoaiDataGridViewTextBoxColumn.HeaderText = "DienThoai";
+            this.dienThoaiDataGridViewTextBoxColumn.Name = "dienThoaiDataGridViewTextBoxColumn";
+            // 
+            // nhanvienBindingSource
+            // 
+            this.nhanvienBindingSource.DataMember = "Nhanvien";
+            this.nhanvienBindingSource.DataSource = this.qLHDDataSet;
+            // 
+            // qLHDDataSet
+            // 
+            this.qLHDDataSet.DataSetName = "QLHDDataSet";
+            this.qLHDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
             // 
@@ -112,14 +166,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbxNu);
             this.groupBox1.Controls.Add(this.dtpNgaySinh);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnSua);
+            this.groupBox1.Controls.Add(this.txtEmail);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txtEmail);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtSDT);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtTenNhanVien);
@@ -189,7 +244,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(6, 164);
+            this.txtEmail.Location = new System.Drawing.Point(6, 117);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(226, 20);
             this.txtEmail.TabIndex = 4;
@@ -197,15 +252,15 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 148);
+            this.label3.Location = new System.Drawing.Point(3, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(26, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Email";
+            this.label3.Text = "Tên";
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(6, 122);
+            this.txtSDT.Location = new System.Drawing.Point(6, 168);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(226, 20);
             this.txtSDT.TabIndex = 3;
@@ -213,7 +268,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 106);
+            this.label4.Location = new System.Drawing.Point(3, 152);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 13);
             this.label4.TabIndex = 6;
@@ -231,9 +286,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(3, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.Size = new System.Drawing.Size(24, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Tên Nhân Viên";
+            this.label2.Text = "Họ ";
             // 
             // btnThemNhanVien
             // 
@@ -246,67 +301,24 @@
             this.btnThemNhanVien.UseVisualStyleBackColor = true;
             this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
-            // qLHDDataSet
-            // 
-            this.qLHDDataSet.DataSetName = "QLHDDataSet";
-            this.qLHDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // qLHDDataSetBindingSource
             // 
             this.qLHDDataSetBindingSource.DataSource = this.qLHDDataSet;
             this.qLHDDataSetBindingSource.Position = 0;
             // 
-            // nhanvienBindingSource
-            // 
-            this.nhanvienBindingSource.DataMember = "Nhanvien";
-            this.nhanvienBindingSource.DataSource = this.qLHDDataSet;
-            // 
             // nhanvienTableAdapter
             // 
             this.nhanvienTableAdapter.ClearBeforeFill = true;
             // 
-            // maNVDataGridViewTextBoxColumn
+            // cbxNu
             // 
-            this.maNVDataGridViewTextBoxColumn.DataPropertyName = "MaNV";
-            this.maNVDataGridViewTextBoxColumn.HeaderText = "MaNV";
-            this.maNVDataGridViewTextBoxColumn.Name = "maNVDataGridViewTextBoxColumn";
-            this.maNVDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // hoDataGridViewTextBoxColumn
-            // 
-            this.hoDataGridViewTextBoxColumn.DataPropertyName = "Ho";
-            this.hoDataGridViewTextBoxColumn.HeaderText = "Ho";
-            this.hoDataGridViewTextBoxColumn.Name = "hoDataGridViewTextBoxColumn";
-            // 
-            // tenDataGridViewTextBoxColumn
-            // 
-            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
-            this.tenDataGridViewTextBoxColumn.HeaderText = "Ten";
-            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
-            // 
-            // nuDataGridViewCheckBoxColumn
-            // 
-            this.nuDataGridViewCheckBoxColumn.DataPropertyName = "Nu";
-            this.nuDataGridViewCheckBoxColumn.HeaderText = "Nu";
-            this.nuDataGridViewCheckBoxColumn.Name = "nuDataGridViewCheckBoxColumn";
-            // 
-            // ngayNVDataGridViewTextBoxColumn
-            // 
-            this.ngayNVDataGridViewTextBoxColumn.DataPropertyName = "NgayNV";
-            this.ngayNVDataGridViewTextBoxColumn.HeaderText = "NgayNV";
-            this.ngayNVDataGridViewTextBoxColumn.Name = "ngayNVDataGridViewTextBoxColumn";
-            // 
-            // diaChiDataGridViewTextBoxColumn
-            // 
-            this.diaChiDataGridViewTextBoxColumn.DataPropertyName = "DiaChi";
-            this.diaChiDataGridViewTextBoxColumn.HeaderText = "DiaChi";
-            this.diaChiDataGridViewTextBoxColumn.Name = "diaChiDataGridViewTextBoxColumn";
-            // 
-            // dienThoaiDataGridViewTextBoxColumn
-            // 
-            this.dienThoaiDataGridViewTextBoxColumn.DataPropertyName = "DienThoai";
-            this.dienThoaiDataGridViewTextBoxColumn.HeaderText = "DienThoai";
-            this.dienThoaiDataGridViewTextBoxColumn.Name = "dienThoaiDataGridViewTextBoxColumn";
+            this.cbxNu.AutoSize = true;
+            this.cbxNu.Location = new System.Drawing.Point(6, 297);
+            this.cbxNu.Name = "cbxNu";
+            this.cbxNu.Size = new System.Drawing.Size(40, 17);
+            this.cbxNu.TabIndex = 13;
+            this.cbxNu.Text = "Nữ";
+            this.cbxNu.UseVisualStyleBackColor = true;
             // 
             // FormDanhSachNhanVien
             // 
@@ -320,11 +332,11 @@
             this.Text = "FormDanhSachNhanVien";
             this.Load += new System.EventHandler(this.FormDanhSachNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhanVien)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanvienBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLHDDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nhanvienBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -360,5 +372,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ngayNVDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn diaChiDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dienThoaiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.CheckBox cbxNu;
     }
 }

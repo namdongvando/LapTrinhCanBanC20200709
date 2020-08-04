@@ -9,3 +9,14 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.application
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.exe.manifest
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.application
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe.manifest
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.application
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\bin\Debug\SuDungList.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.exe.manifest
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.application
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\SuDungList\obj\Debug\SuDungList.pdb

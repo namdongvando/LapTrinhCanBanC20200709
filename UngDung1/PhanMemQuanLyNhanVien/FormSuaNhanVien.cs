@@ -64,24 +64,24 @@ namespace PhanMemQuanLyNhanVien
                 throw new Exception("Ngày Sinh Không Hợp Lệ");
             }
             // tất cả thông tin đã ok
-            nv.MaNhanVien = txtMaNhanVien.Text;
-            nv.HoTen = txtTenNhanVien.Text;
+            nv.MaNV= txtMaNhanVien.Text;
+            nv.Ho = txtTenNhanVien.Text;
             nv.DiaChi = txtDiaChi.Text;
-            nv.Email = txtEmail.Text;
-            nv.SDT = txtSDT.Text;
-            nv.NgaySinh = ngaySinh;
+            nv.Ten = txtEmail.Text;
+            nv.DienThoai = txtSDT.Text;
+            nv.NgayNV = ngaySinh;
             return nv;
         }
 
         private void SetInputForm(NhanVien nvById)
         {
-            txtMaNhanVien.Text = nvById.MaNhanVien;
-            txtTenNhanVien.Text = nvById.HoTen;
+            txtMaNhanVien.Text = nvById.MaNV;
+            txtTenNhanVien.Text = nvById.Ho;
             txtDiaChi.Text = nvById.DiaChi;
-            txtEmail.Text = nvById.Email;
-            txtSDT.Text = nvById.SDT;
-            if (nvById.NgaySinh != new DateTime())
-                dtpNgaySinh.Value = nvById.NgaySinh;
+            txtEmail.Text = nvById.Ten;
+            txtSDT.Text = nvById.DienThoai;
+            if (nvById.NgayNV != new DateTime())
+                dtpNgaySinh.Value = nvById.NgayNV;
             else
                 dtpNgaySinh.Value = DateTime.Today;
         }

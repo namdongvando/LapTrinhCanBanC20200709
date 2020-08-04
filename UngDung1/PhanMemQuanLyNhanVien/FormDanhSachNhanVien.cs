@@ -20,10 +20,9 @@ namespace PhanMemQuanLyNhanVien
         private void FormDanhSachNhanVien_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'qLHDDataSet.Nhanvien' table. You can move, or remove it, as needed.
-            this.nhanvienTableAdapter.Fill(this.qLHDDataSet.Nhanvien);
-            //NhanVien nv = new NhanVien();
-            //  nv.KhoiTaoDS();
-            //dgvDSNhanVien.DataSource = nv.GetDSNhanVien().ToList();
+            //this.nhanvienTableAdapter.Fill(this.qLHDDataSet.Nhanvien);
+            NhanVien nv = new NhanVien();
+            dgvDSNhanVien.DataSource = nv.GetDSNhanVien().ToList();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -63,10 +62,10 @@ namespace PhanMemQuanLyNhanVien
         private NhanVien GetInputForm()
         {
             NhanVien nv = new NhanVien();
-            if (txtMaNhanVien.Text.Length == 0)
-            {
-                throw new Exception("Bạn Chưa Nhập Mã Nhân Viên");
-            }
+            //if (txtMaNhanVien.Text.Length == 0)
+            //{
+            //    throw new Exception("Bạn Chưa Nhập Mã Nhân Viên");
+            //}
             if (txtTenNhanVien.Text.Length == 0)
             {
                 throw new Exception("Bạn Chưa Nhập Tên Nhân Viên");
@@ -77,12 +76,13 @@ namespace PhanMemQuanLyNhanVien
                 throw new Exception("Ngày Sinh Không Hợp Lệ");
             }
             // tất cả thông tin đã ok
-            nv.MaNhanVien = txtMaNhanVien.Text;
-            nv.HoTen = txtTenNhanVien.Text;
+            nv.Nu = cbxNu.Checked;
+            nv.MaNV = txtMaNhanVien.Text;
+            nv.Ho = txtTenNhanVien.Text;
             nv.DiaChi = txtDiaChi.Text;
-            nv.Email = txtEmail.Text;
-            nv.SDT = txtSDT.Text;
-            nv.NgaySinh = ngaySinh;
+            nv.Ten = txtEmail.Text;
+            nv.DienThoai = txtSDT.Text;
+            nv.NgayNV = ngaySinh;
             return nv;
         }
 
@@ -94,7 +94,7 @@ namespace PhanMemQuanLyNhanVien
             NhanVien nv = new NhanVien();
             NhanVien nvById = nv.GetNVById(MaNV);
             SetInputForm(nvById);
-            Form fSuaNhanVien = new FormSuaNhanVien(nvById.MaNhanVien);
+            Form fSuaNhanVien = new FormSuaNhanVien(nvById.MaNV);
             var kt = fSuaNhanVien.ShowDialog();
             if (kt == DialogResult.OK) {
                 dgvDSNhanVien.DataSource = 
@@ -106,13 +106,13 @@ namespace PhanMemQuanLyNhanVien
 
         private void SetInputForm(NhanVien nvById)
         {
-            txtMaNhanVien.Text = nvById.MaNhanVien;
-            txtTenNhanVien.Text = nvById.HoTen;
+            txtMaNhanVien.Text = nvById.MaNV;
+            txtTenNhanVien.Text = nvById.Ho;
             txtDiaChi.Text = nvById.DiaChi;
-            txtEmail.Text = nvById.Email;
-            txtSDT.Text = nvById.SDT;
-            if (nvById.NgaySinh != new DateTime())
-                dtpNgaySinh.Value = nvById.NgaySinh;
+            txtEmail.Text = nvById.Ten;
+            txtSDT.Text = nvById.DienThoai;
+            if (nvById.NgayNV != new DateTime())
+                dtpNgaySinh.Value = nvById.NgayNV;
             else
                 dtpNgaySinh.Value = DateTime.Today;
         }

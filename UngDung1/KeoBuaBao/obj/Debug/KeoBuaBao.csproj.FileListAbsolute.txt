@@ -5,3 +5,10 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\K
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.exe
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\bin\Debug\KeoBuaBao.exe.config
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\bin\Debug\KeoBuaBao.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\bin\Debug\KeoBuaBao.pdb
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.csprojAssemblyReference.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.csproj.CoreCompileInputs.cache
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.exe
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\KeoBuaBao\obj\Debug\KeoBuaBao.pdb
