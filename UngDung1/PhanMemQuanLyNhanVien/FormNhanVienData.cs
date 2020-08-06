@@ -22,6 +22,7 @@ namespace PhanMemQuanLyNhanVien
 
         private void FormNhanVienData_Load(object sender, EventArgs e)
         {
+
             try
             {
                 SqlConnection conn = new SqlConnection(ConnectStr);
