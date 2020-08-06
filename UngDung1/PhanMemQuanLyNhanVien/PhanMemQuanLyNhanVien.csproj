@@ -7,7 +7,7 @@
     <ProjectGuid>{29732B1E-EB76-4B35-A889-B3D9E7147E97}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PhanMemQuanLyNhanVien</RootNamespace>
-    <AssemblyName>PhanMemQuanLyNhanVien</AssemblyName>
+    <AssemblyName>PhanMemQuanLyNhanVien1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -64,6 +64,12 @@
     <Compile Include="FormDanhSachNhanVien.Designer.cs">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNhanVienData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhanVienData.Designer.cs">
+      <DependentUpon>FormNhanVienData.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSuaNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDanhSachNhanVien.resx">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhanVienData.resx">
+      <DependentUpon>FormNhanVienData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSuaNhanVien.resx">
       <DependentUpon>FormSuaNhanVien.cs</DependentUpon>
