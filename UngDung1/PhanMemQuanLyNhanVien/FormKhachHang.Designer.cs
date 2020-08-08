@@ -63,6 +63,7 @@
             this.btnXoabtnXoa.TabIndex = 17;
             this.btnXoabtnXoa.Text = "Xóa";
             this.btnXoabtnXoa.UseVisualStyleBackColor = true;
+            this.btnXoabtnXoa.Click += new System.EventHandler(this.btnXoabtnXoa_Click);
             // 
             // btnSua
             // 
@@ -72,6 +73,7 @@
             this.btnSua.TabIndex = 16;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -123,6 +125,7 @@
             this.dgvDSKhachHang.Name = "dgvDSKhachHang";
             this.dgvDSKhachHang.Size = new System.Drawing.Size(873, 619);
             this.dgvDSKhachHang.TabIndex = 10;
+            this.dgvDSKhachHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSKhachHang_CellContentClick);
             // 
             // label1
             // 

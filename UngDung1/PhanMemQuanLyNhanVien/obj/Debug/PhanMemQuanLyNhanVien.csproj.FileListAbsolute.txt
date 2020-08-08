@@ -18,3 +18,4 @@ D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanM
 D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien1.pdb
 D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormThanhPho.resources
 D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormKhachHang.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormSanPham.resources

@@ -70,7 +70,7 @@ Values (N'{0}',N'{1}',N'{2}',{3},N'{4}')",
             {
                 MessageBox.Show(ex.Message);
             }
-           
+
 
         }
 
@@ -80,20 +80,103 @@ Values (N'{0}',N'{1}',N'{2}',{3},N'{4}')",
             txtMaKhacHang.Text = "";
             txtDienThoai.Text = "";
             txtDiaChi.Text = "";
-             
+
         }
 
         private void CheckFormInput()
         {
             if (txtMaKhacHang.TextLength == 0
-                || txtMaKhacHang.TextLength > 7) {
+                || txtMaKhacHang.TextLength > 7)
+            {
                 throw new Exception("Ma Khách Hàng Không Hợp Lệ");
             }
-            if ( txtDienThoai.TextLength > 10)
+            if (txtDienThoai.TextLength > 10)
             {
                 throw new Exception("SDT Không Hợp Lệ");
             }
 
+        }
+
+        private void dgvDSKhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string maKhachHang = dgvDSKhachHang
+                .Rows[e.RowIndex]
+                .Cells[0].Value.ToString();
+            string tenCty = dgvDSKhachHang
+                .Rows[e.RowIndex]
+                .Cells[1].Value.ToString();
+            string diaChi = dgvDSKhachHang
+                .Rows[e.RowIndex]
+                .Cells[2].Value.ToString();
+            int thanhPho = int.Parse(dgvDSKhachHang
+                .Rows[e.RowIndex]
+                .Cells[3].Value.ToString());
+            string dienThoai = dgvDSKhachHang
+                .Rows[e.RowIndex]
+                .Cells[4].Value.ToString();
+            txtMaKhacHang.Text = maKhachHang;
+            txtTenCTY.Text = tenCty;
+            txtDiaChi.Text = diaChi;
+            txtDienThoai.Text = dienThoai;
+            cbbThanhPho.SelectedValue = thanhPho;
+
+
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                CheckFormInput();
+                string sql = string.Format(@"update Khachhang 
+set 
+TenCty		=N'{0}'
+,DiaChi		=N'{1}'
+,MaThanhPho	=N'{2}'
+,DienThoai	=N'{3}'
+Where MaKH = '{4}'",
+        txtTenCTY.Text,
+        txtDiaChi.Text,
+        cbbThanhPho.SelectedValue.ToString()
+        , txtDienThoai.Text
+        , txtMaKhacHang.Text
+    );
+                Adapter ad = new Adapter();
+                ad.SaveQuery(sql);
+                LoadDgvKhachHang();
+                clearForm();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnXoabtnXoa_Click(object sender, EventArgs e)
+        {
+            //delete from Khachhang where MaKH = 'sefsd'
+            try
+            {
+                var Kt = MessageBox.Show("Bạn có muốn xóa không?",
+                    "Thông Báo", MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                    );
+                if (Kt != DialogResult.Yes)
+                    return;
+                if (txtMaKhacHang.TextLength == 0)
+                    return;
+                string sql =
+                    string.Format(@"delete from Khachhang where MaKH = '{0}'",
+           txtMaKhacHang.Text);
+                Adapter ad = new Adapter();
+                ad.SaveQuery(sql);
+                LoadDgvKhachHang();
+                clearForm();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
