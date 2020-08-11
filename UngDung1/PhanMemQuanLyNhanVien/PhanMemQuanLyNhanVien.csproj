@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormChonKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChonKhachHang.Designer.cs">
+      <DependentUpon>FormChonKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="formDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,18 @@
     </Compile>
     <Compile Include="FormDanhSachNhanVien.Designer.cs">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDSHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDSHoaDon.Designer.cs">
+      <DependentUpon>FormDSHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHoaDon.Designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="FormKhachHang.cs">
       <SubType>Form</SubType>
@@ -132,11 +150,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormChonKhachHang.resx">
+      <DependentUpon>FormChonKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formDangNhap.resx">
       <DependentUpon>formDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDanhSachNhanVien.resx">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDSHoaDon.resx">
+      <DependentUpon>FormDSHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
