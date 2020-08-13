@@ -70,11 +70,23 @@
     <Compile Include="FormDanhSachNhanVien.Designer.cs">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDialogChonNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDialogChonNhanVien.Designer.cs">
+      <DependentUpon>FormDialogChonNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDSHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDSHoaDon.Designer.cs">
       <DependentUpon>FormDSHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGioHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGioHang.Designer.cs">
+      <DependentUpon>FormGioHang.cs</DependentUpon>
     </Compile>
     <Compile Include="FormHoaDon.cs">
       <SubType>Form</SubType>
@@ -139,7 +151,9 @@
     <Compile Include="HinhHoc\HinhHoc.cs" />
     <Compile Include="HinhHoc\HinhTron.cs" />
     <Compile Include="HinhHoc\HinhVuong.cs" />
+    <Compile Include="KhachHang.cs" />
     <Compile Include="NhanVien.cs" />
+    <Compile Include="NhanVienModelView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLHDDataSet.Designer.cs">
@@ -159,8 +173,14 @@
     <EmbeddedResource Include="FormDanhSachNhanVien.resx">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDialogChonNhanVien.resx">
+      <DependentUpon>FormDialogChonNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDSHoaDon.resx">
       <DependentUpon>FormDSHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGioHang.resx">
+      <DependentUpon>FormGioHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHoaDon.resx">
       <DependentUpon>FormHoaDon.cs</DependentUpon>

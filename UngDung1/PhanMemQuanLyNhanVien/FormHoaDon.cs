@@ -103,7 +103,35 @@ a.MaHD={0}",maHoaDon);
         private void btnChonKhachHang_Click(object sender, EventArgs e)
         {
             Form chonkhachhang = new FormChonKhachHang();
-            chonkhachhang.ShowDialog();
+           DialogResult ok =  chonkhachhang.ShowDialog();
+            if (ok == DialogResult.OK) {
+                txtMaKhachHang.Text = 
+                KhachHang.GetChonKhachHangChoHoaDon().TenCty;
+            }
+        }
+
+        private void btnChonNhanVien_Click(object sender, EventArgs e)
+        {
+            Form chonNhanVien = new FormDialogChonNhanVien();
+            DialogResult ok = chonNhanVien.ShowDialog();
+            if (ok == DialogResult.OK)
+            {
+                txtMaNhanVien.Text =
+                NhanVienModelView
+                .GetChonNhanVienChoHoaDon().HoTen;
+            }
+        }
+
+        private void dgvChiTietHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+
+        }
+
+        private void dgvChiTietHoaDon_Click(object sender, EventArgs e)
+        {
+            Form formGioHang = new FormGioHang();
+            formGioHang.ShowDialog();
         }
     }
 }

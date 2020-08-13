@@ -43,3 +43,5 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien1.pdb
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDSHoaDon.resources
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormChonKhachHang.resources
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDialogChonNhanVien.resources
+C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormGioHang.resources

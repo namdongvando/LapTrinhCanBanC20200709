@@ -55,7 +55,7 @@ and Hoadon.MaKH = Khachhang.MaKH", conn);
         private void btnThemHoaDon_Click(object sender, EventArgs e)
         {
             Form formThemHoaDon = new FormHoaDon();
-            formThemHoaDon.Show();
+            formThemHoaDon.ShowDialog();
 
 
         }
