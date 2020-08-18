@@ -30,12 +30,36 @@ namespace PhanMemQuanLyNhanVien
 
         private void FormHoaDon_Load(object sender, EventArgs e)
         {
+            txtMaHoaDon.Text = TaoMaHoaDon(GioHang.TongHoaDon()); 
+            //20070
             // xem hoa don
             if (maHoaDon != null)
             {
                 LoadChiTietHoaDon();
             }
             
+        }
+
+        private string TaoMaHoaDon(int v)
+        {
+            v += 1;
+           string so = v.ToString();
+           int dodai = so.Length;
+            switch (dodai) {
+                case 1:
+                    return "2000" + so;
+                case 2:
+                    return "200" + so;
+                case 3:
+                    return "20" + so;
+                case 4:
+                    return "2" + so;
+                case 5:
+                    return  so;
+                default:
+                    return so;
+            } 
+
         }
 
         private void LoadChiTietHoaDon()
@@ -131,7 +155,12 @@ a.MaHD={0}",maHoaDon);
         private void dgvChiTietHoaDon_Click(object sender, EventArgs e)
         {
             Form formGioHang = new FormGioHang();
-            formGioHang.ShowDialog();
+            var kt = formGioHang.ShowDialog();
+            if (kt == DialogResult.OK) {
+                dgvChiTietHoaDon.DataSource =
+                    GioHang.DanhSachSanPham.ToList();
+            }
+
         }
     }
 }

@@ -136,6 +136,7 @@
     <Compile Include="GiaiTri.Designer.cs">
       <DependentUpon>GiaiTri.cs</DependentUpon>
     </Compile>
+    <Compile Include="GioHang.cs" />
     <Compile Include="HinhHoc\formHinhTron.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +162,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLHDDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SanPham.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
