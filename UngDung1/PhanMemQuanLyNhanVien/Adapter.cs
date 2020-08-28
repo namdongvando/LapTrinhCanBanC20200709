@@ -10,7 +10,7 @@ namespace PhanMemQuanLyNhanVien
 
     class Adapter
     {
-        public static string ConnStr = "Data Source=PC26;Initial Catalog=QLHD;Integrated Security=True";
+        public static string ConnStr = "Data Source=DESKTOP-M2PUTJR;Initial Catalog=QLHD;Integrated Security=True";
 
         public SqlDataReader RunQuery(string sql)
         {

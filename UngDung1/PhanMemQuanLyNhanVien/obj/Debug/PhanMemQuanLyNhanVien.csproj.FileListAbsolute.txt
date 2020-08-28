@@ -45,3 +45,8 @@ C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormChonKhachHang.resources
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDialogChonNhanVien.resources
 C:\Users\NN\Desktop\Share\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormGioHang.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormChonKhachHang.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDialogChonNhanVien.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormDSHoaDon.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormGioHang.resources
+D:\2bakco\LapTrinhCanBanC20200709\UngDung1\PhanMemQuanLyNhanVien\obj\Debug\PhanMemQuanLyNhanVien.FormHoaDon.resources
